@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comida y Cultura Hispana</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Playfair+Display:ital@1&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    </head>
+<body>
+
+    <header class="nav-bar">
+        <div class="logo">Comida y Cultura</div>
+        <nav>
+            <a href="index.html">🏡 Sabores</a>
+            <a href="culture.html">🌎 Cultura</a>
+            <a href="#contact">💌 Contacto</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-banner">
+        <div class="hero-content">
+            <h1>Comida y Cultura Hispana</h1>
+            <p class="subtitle">Sabores, tradiciones y pasión del mundo hispano.</p>
+            <div class="dish-collage">
+                <img src="img/tacos.jpg" alt="Tacos" class="dish-photo">
+                <img src="img/paella.jpg" alt="Paella" class="dish-photo">
+                <img src="img/ceviche.jpg" alt="Ceviche" class="dish-photo">
+            </div>
+            <a href="#gallery" class="cta-button">Explora los sabores</a>
+        </div>
+    </section>
+
+    <main id="gallery">
+        
+        <section id="spain" class="food-section red-bg interactive-flag" data-country="España">
+            <div class="flag-icon">🇪🇸</div>
+            <div class="content-box">
+                <h2>España – La Paella</h2>
+                <p>La paella representa la unión y la celebración familiar en España.</p>
+                <div class="did-you-know">
+                    <h3>¿Sabías que...?</h3>
+                    <p>Se celebra el **Día Mundial de la Paella** el 20 de septiembre en Valencia.</p>
+                </div>
+            </div>
+            <img src="img/paella_big.jpg" alt="Paella" class="dish-image hover-grow">
+        </section>
+
+        <section id="mexico" class="food-section yellow-bg interactive-flag" data-country="México">
+            <div class="flag-icon">🇲🇽</div>
+            <div class="content-box">
+                <h2>México – Los Tacos</h2>
+                <p class="quote">“En México, los tacos son más que comida — son una forma de vida.”</p>
+                <div class="taco-grid">
+                    <div class="taco-variety hover-grow">Al Pastor</div>
+                    <div class="taco-variety hover-grow">Carnitas</div>
+                    <div class="taco-variety hover-grow">Asada</div>
+                </div>
+            </div>
+            <img src="img/tacos_big.jpg" alt="Tacos al Pastor" class="dish-image hover-grow">
+        </section>
+        
+        <section id="peru" class="food-section turquoise-bg interactive-flag" data-country="Perú">
+            <div class="flag-icon">🇵🇪</div>
+            <img src="img/ceviche_big.jpg" alt="Ceviche Peruano" class="dish-image hover-grow">
+            <div class="content-box">
+                <h2>Perú – El Ceviche</h2>
+                <p>El ceviche es el corazón del Perú — fresco, ácido y lleno de historia.</p>
+                <div class="ocean-wave-anim"></div>
+            </div>
+        </section>
+
+        <section id="argentina" class="food-section red-bg interactive-flag" data-country="Argentina">
+            <div class="flag-icon">🇦🇷</div>
+            <div class="content-box">
+                <h2>Argentina – El Asado</h2>
+                <p>El asado argentino es símbolo de amistad, familia y tradición.</p>
+                <div class="photo-grid-asado">
+                    <img src="img/grill1.jpg" alt="Parrilla" class="hover-grow">
+                    <img src="img/gathering.jpg" alt="Gathering" class="hover-grow">
+                </div>
+            </div>
+             <img src="img/asado_big.jpg" alt="Asado" class="dish-image hover-grow">
+        </section>
+
+        <section id="cuba" class="food-section tropical-bg interactive-flag" data-country="Cuba">
+            <div class="flag-icon">🇨🇺</div>
+            <img src="img/ropavieja.jpg" alt="Ropa Vieja" class="dish-image hover-grow">
+            <div class="content-box">
+                <h2>Cuba – Ropa Vieja</h2>
+                <p>Cada plato cubano lleva ritmo, como su música. El secreto está en el sofrito y la cocción lenta.</p>
+            </div>
+        </section>
+        
+        <section id="vocabulary" class="mini-section white-bg">
+            <h2>💬 Palabras Nuevas</h2>
+            <div class="vocab-grid">
+                <span class="vocab-item" data-translation="Rice">Arroz</span>
+                <span class="vocab-item" data-translation="Meat">Carne</span>
+                <span class="vocab-item" data-translation="Sea/Ocean">Mar</span>
+                <span class="vocab-item" data-translation="Flavor">Sabor</span>
+                <span class="vocab-item" data-translation="Party">Fiesta</span>
+                <span class="vocab-item" data-translation="Culture">Cultura</span>
+            </div>
+            <p class="vocab-hint">¡Haz clic o pasa el ratón sobre la palabra para ver su significado!</p>
+        </section>
+
+    </main>
+
+    <footer id="contact" class="conclusion-section dark-bg">
+        <p class="final-quote">“Comer es una forma de viajar sin moverse del lugar.”</p>
+        <p class="gracias">¡Gracias por visitar nuestro mundo de sabor!</p>
+        <div class="social-icons">
+            <a href="#" class="icon">FB</a> 
+            <a href="#" class="icon">IG</a>
+            <a href="#" class="icon">TW</a>
+        </div>
+    </footer>
+</body>
+</html>
